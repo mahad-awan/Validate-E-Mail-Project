@@ -12,21 +12,4 @@ if len(email) >= 7:
                     elif i.isalpha():
                         continue
                     elif i.isdigit():
-                        continue
-                    elif i in ["_", ".", "@"]:
-                        continue
-                    else:
-                        d = 1
-
-                if k == 1 or d == 1:
-                    print("Wrong Email ")
-                else:
-                    print("Valid Email")
-            else:
-                print("Wrong Email : dot position ")
-        else:
-            print("Wrong Email : @ issue ")
-    else:
-        print("Wrong Email : first character ")
-else:
-    print("Wrong Email : length ")
+               
