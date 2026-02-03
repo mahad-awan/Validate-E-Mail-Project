@@ -21,7 +21,7 @@ if len(email) >= 7:
                 if k == 1 or d == 1:
                     print("Wrong Email ")
                 else:
-                    print("Valid Email ")
+                    print("Valid Email")
             else:
                 print("Wrong Email : dot position ")
         else:
